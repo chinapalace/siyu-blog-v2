@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-theme-kit",
-  "description": "Gatsby Manor theme kit",
+  "name": "siyu-capital",
+  "description": "Siyu Capital",
   "version": "1.1.0",
-  "author": "Steven Natera <tektekpush@gmail.com>",
+  "author": "Justin McLaren <justinmclaren63@gmail.com>",
   "dependencies": {
     "classnames": "^2.2.5",
     "gatsby": "~1.9.45",
@@ -30,7 +30,7 @@
     "enzyme": "^3.1.0",
     "enzyme-adapter-react-16": "^1.0.2",
     "enzyme-to-json": "^3.1.4",
-    "gh-pages": "~1.0.0",
+    "gh-pages": "^1.0.0",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^21.2.1",
     "nightwatch": "^0.9.16",

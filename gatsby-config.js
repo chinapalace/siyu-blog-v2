@@ -3,8 +3,8 @@ const { name } = require('./package.json');
 module.exports = {
   pathPrefix: process.env.CI ? `/${name}` : `/`,
   siteMetadata: {
-    author: 'You!',
-    title: `Gatsby Default (Blog) Starter`,
+    author: 'Justin McLaren',
+    title: `Siyu Capital`,
   },
   plugins: [
     'gatsby-plugin-react-next',
