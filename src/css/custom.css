@@ -1,3 +1,4 @@
+
 .img-size-sm {
   width: 200px;
   height: 200px;
@@ -23,4 +24,8 @@
 
 .img-circle {
   border-radius: 50%;
+}
+
+#logo {
+  padding: 30px;
 }

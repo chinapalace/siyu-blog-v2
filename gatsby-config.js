@@ -1,7 +1,7 @@
 const { name } = require('./package.json');
 
 module.exports = {
-  pathPrefix: process.env.CI ? `/${name}` : `/`,
+  pathPrefix: `/${name}`,
   siteMetadata: {
     author: 'Justin McLaren',
     title: `Siyu Capital`,
