@@ -12,15 +12,16 @@ export default class Post extends React.Component {
       <div id="main">
         <section className="post">
           <header className="major">
-            <span className="date">{this.props.post.frontmatter.date}</span>
-            <h1>{this.props.post.frontmatter.title}</h1>
-            <p>{this.props.post.excerpt}</p>
+            {console.log(this.props)}
+            <span className="date">{this.props.post.updated}</span>
+            <h1>{this.props.post.title}</h1>
+
           </header>
           <p
             className="blog-post-content"
-            dangerouslySetInnerHTML={{ __html: this.props.post.html }}
+            dangerouslySetInnerHTML={{ __html: this.props.post.content }}
           />
-          <Tags list={this.props.post.frontmatter.tags || []} />
+
           <div className="pagination">
             {this.props.prev &&
               <Link className="previous" to={this.props.prev.frontmatter.path}>

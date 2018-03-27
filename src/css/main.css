@@ -3426,10 +3426,7 @@
 
   #nav {
     color: #ffffff;
-    display: -moz-flex;
-    display: -webkit-flex;
-    display: -ms-flex;
-    display: flex;
+    display: block;
     -moz-transition: -moz-transform 1s ease, opacity 1s ease;
     -webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
     -ms-transition: -ms-transform 1s ease, opacity 1s ease;
@@ -3437,7 +3434,7 @@
     background: rgba(255, 255, 255, 0.175);
     height: 4rem;
     line-height: 4rem;
-    margin: -4rem auto 0 auto;
+    margin: 0 auto 0 auto;
     overflow: hidden;
     padding: 0 2rem 0 0;
     position: relative;

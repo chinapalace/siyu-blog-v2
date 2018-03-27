@@ -6,7 +6,7 @@ export default function Contact() {
     <div id="main">
       <section className="post">
         <header className="major">
-          <h1>Whatever else you want to put.</h1>
+          <h1>Weekly Newsletter</h1>
         </header>
         <div className="image main"><img src="images/pic01.jpg" alt="" /></div>
         <p>

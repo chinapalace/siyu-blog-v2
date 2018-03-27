@@ -5,7 +5,7 @@ import Helmet from 'react-helmet';
 import classNames from 'classnames';
 
 import Copyright from '../components/Copyright';
-import Intro from '../components/Intro';
+
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
@@ -23,11 +23,10 @@ export default class Template extends React.Component {
 
   render() {
     const data = this.props;
+    console.log("data", data)
 
     return (
       <Massively data={data}>
-        <Intro />
-        <Header />
         <Navbar />
         {this.props.children()}
         <Footer />

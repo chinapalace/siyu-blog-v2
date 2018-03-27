@@ -8,6 +8,7 @@ export default class PreviewPost extends React.Component {
   }
 
   render() {
+
     return (
       <article>
         <header>
