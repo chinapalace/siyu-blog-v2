@@ -28,10 +28,6 @@
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
     ],
-    "component---src-pages-contact-js": [
-      "component---src-pages-contact-js-68058111732441901260.js",
-      "component---src-pages-contact-js-68058111732441901260.js.map"
-    ],
     "path---edition-12": [
       "path---edition-12-534b7bf1e71cba37c5c7.js",
       "path---edition-12-534b7bf1e71cba37c5c7.js.map"
@@ -45,8 +41,12 @@
       "path---edition-9-a51ea7708d8c22e5aa3d.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-2fb930946c59bed69e5b.js",
-      "component---src-layouts-index-js-2fb930946c59bed69e5b.js.map"
+      "component---src-layouts-index-js-bf5e3bdfe789c1fb6b64.js",
+      "component---src-layouts-index-js-bf5e3bdfe789c1fb6b64.js.map"
+    ],
+    "component---src-pages-newsletter-js": [
+      "component---src-pages-newsletter-js-68058111732441901260.js",
+      "component---src-pages-newsletter-js-68058111732441901260.js.map"
     ],
     "path---index": [
       "path---index-59bccc74cd24899d4ec9.js",
@@ -64,6 +64,10 @@
       "component---src-pages-404-js-d388fecb512db7a46dee.js",
       "component---src-pages-404-js-d388fecb512db7a46dee.js.map"
     ],
+    "path---newsletter": [
+      "path---newsletter-a0e39f21c11f6a62c5ab.js",
+      "path---newsletter-a0e39f21c11f6a62c5ab.js.map"
+    ],
     "commons": [
       "commons-cd015e1b70f7077107a0.js",
       "commons-cd015e1b70f7077107a0.js.map"
@@ -80,18 +84,14 @@
       "path---edition-3-cb03cce46a077230b0a7.js",
       "path---edition-3-cb03cce46a077230b0a7.js.map"
     ],
-    "path---contact": [
-      "path---contact-a0e39f21c11f6a62c5ab.js",
-      "path---contact-a0e39f21c11f6a62c5ab.js.map"
-    ],
     "path---edition-2": [
       "path---edition-2-7f2aefdd4778f3799e1d.js",
       "path---edition-2-7f2aefdd4778f3799e1d.js.map"
     ],
     "app": [
-      "app-ce9891d76f7154e4c174.js",
+      "app-1d4417546e6548e7f716.js",
       "build-js-styles.css",
-      "app-ce9891d76f7154e4c174.js.map",
+      "app-1d4417546e6548e7f716.js.map",
       "build-js-styles.css.map"
     ],
     "path---edition-16": [
