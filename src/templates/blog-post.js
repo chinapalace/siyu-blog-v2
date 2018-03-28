@@ -15,7 +15,11 @@ query PostQuery($slug: String!) {
   post(fields: { slug: { eq: $slug } }) {
       title,
       content,
-      updated
+      updated,
+      fields {
+        slug,
+        date
+      }
   }  
 }
 `;

@@ -3093,7 +3093,7 @@
 
   #intro {
     color: #ffffff;
-    padding: 8rem 4rem 6rem 4rem ;
+    padding: 0 4rem 10rem 4rem ;
     -moz-align-items: center;
     -webkit-align-items: center;
     -ms-align-items: center;
@@ -3265,7 +3265,7 @@
     @media screen and (max-width: 980px) {
 
       #intro {
-        padding: 4rem 4rem 2rem 4rem ;
+        padding: 0 4rem 3rem 4rem ;
         min-height: 90vh;
       }
 
@@ -3282,7 +3282,7 @@
     @media screen and (max-width: 736px) {
 
       #intro {
-        padding: 3rem 2rem 1rem 2rem ;
+        padding: 0 2rem 1rem 2rem ;
         min-height: 80vh;
       }
 
@@ -4196,7 +4196,7 @@
   #copyright {
     color: #ffffff;
     position: relative;
-    color: rgba(255, 255, 255, 0.25);
+    color: rgba(255, 255, 255, 0.829);
     cursor: default;
     font-family: "Source Sans Pro", Helvetica, sans-serif;
     font-size: 0.8rem;

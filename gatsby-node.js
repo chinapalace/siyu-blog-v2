@@ -75,6 +75,7 @@
 const path = require('path');
 const axios = require('axios');
 const crypto = require('crypto');
+const striptags = require('striptags');
 
 // Create nodes from each newsletter
 exports.sourceNodes = ({
@@ -124,6 +125,11 @@ exports.onCreateNode = ({ node, boundActionCreators }) => {
       node,
       name: 'slug',
       value: node.title.split(' ').slice(0, 2).toString().replace(/,/g, '-')
+    });
+    createNodeField({
+      node,
+      name: 'date',
+      value: node.title.split(' ').slice(2).toString()
     })
   }
 };

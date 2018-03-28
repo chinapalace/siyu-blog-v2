@@ -13,8 +13,8 @@ export default class Post extends React.Component {
         <section className="post">
           <header className="major">
             {console.log(this.props)}
-            <span className="date">{this.props.post.updated}</span>
-            <h1>{this.props.post.title}</h1>
+            <span className="date">{this.props.post.fields.date}</span>
+            <h1>{this.props.post.fields.slug}</h1>
 
           </header>
           <p

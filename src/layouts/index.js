@@ -29,7 +29,7 @@ export default class Template extends React.Component {
       <Massively data={data}>
         <Navbar />
         {this.props.children()}
-        <Footer />
+
         <Copyright />
         <Background />
         <MenuButton />

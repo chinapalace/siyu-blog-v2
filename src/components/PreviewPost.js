@@ -8,23 +8,24 @@ export default class PreviewPost extends React.Component {
   }
 
   render() {
-
+    console.log("props", this.props.post);
     return (
       <article>
         <header>
-          <span className="date">{this.props.post.frontmatter.date}</span>
+          <span className="date">{this.props.post.fields.date}</span>
           <h2>
-            <Link to={this.props.post.frontmatter.path}>
-              {this.props.post.frontmatter.title}
-            </Link>
+            {/* <Link to={this.props.post.frontmatter.path}>
+              
+            </Link> */}
+            {this.props.post.fields.slug}
           </h2>
         </header>
         <p>
-          {this.props.post.excerpt}
+          {/* {this.props.post.excerpt} */}
         </p>
         <ul className="actions">
           <li>
-            <Link to={this.props.post.frontmatter.path} className="button">Full Story</Link>
+            <Link to={this.props.post.fields.slug} className="button">Full Story</Link>
           </li>
         </ul>
       </article>

@@ -29,7 +29,7 @@ export default function About() {
               <img src={mark} alt="mark grace" />
               <br />
               <ul className="icons alt">
-                <li><a href="mailto:mark@m13.co"><i className="icon alt fa fa-envelope"></i></a></li>
+                <li><a href="mailto:mwgrace95@gmail.com"><i className="icon alt fa fa-envelope"></i></a></li>
                 <li><a href="https://www.linkedin.com/in/markgrace95/" target="_blank"><i className="icon alt fa fa-linkedin"></i></a></li>
               </ul>
             </div>

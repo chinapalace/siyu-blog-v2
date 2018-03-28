@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'gatsby-link';
+import mobile from '../images/Siyu-mobile.png'
 
 export default function Contact() {
   return (
@@ -8,14 +9,22 @@ export default function Contact() {
         <header className="major">
           <h1>Weekly Newsletter</h1>
         </header>
-        <div className="image main"><img src="images/pic01.jpg" alt="" /></div>
-        <p>
-          Sed aliquam tellus sit amet lobortis aliquam. Mauris consequat efficitur turpis, at eleifend
-          metus auctor tempus. Curabitur eu blandit metus, at iaculis nunc. Phasellus aliquet purus non
-          porta posuere. Etiam a nisi vestibulum neque vulputate consectetur eget a leo. Ut condimentum
-          iaculis ligula, at imperdiet est tristique ac. Praesent non elit in tortor porta hendrerit sed eget lacus.
-        </p>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))' }}>
+          <div >
+            <p>
+              Get our weekly brief in your email. Full of pertinent news and topics. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+            </p>
+            <form id="email" method="post" action="https://siyucapital.com/api/recipients/" style={{ padding: '3rem', minWidth: '50px' }} >
+              <input size="50" className="fit" type="email" placeholder="Email Address" />
+              <input id="submit" type="submit" />
+            </form>
+          </div>
+          <div style={{ justifySelf: 'center' }}>
+            <img src={mobile} alt="" width="250" height="450" />
+          </div>
+        </div>
       </section>
     </div>
+
   );
 }

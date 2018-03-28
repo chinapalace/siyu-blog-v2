@@ -5,17 +5,19 @@ import PreviewPost from '../components/PreviewPost';
 import Intro from '../components/Intro';
 
 export default function Index({ data }) {
+  console.log("data2", data);
   const { edges: posts } = data.allPost;
-
+  console.log("posts", posts)
   return (
     <div>
       <Intro />
       <div id="main">
         <section className="posts">
           {posts
-            .filter(post => post.node.title > 0)
             .map(({ node: post }) => {
+
               return (
+
                 <PreviewPost key={post.id} post={post} />
               );
             })}
@@ -31,7 +33,11 @@ export const pageQuery = graphql`
       edges {
         node {
           title
-          updated
+          updated,
+          fields {
+            slug,
+            date
+          }
         }
       }
     }  
