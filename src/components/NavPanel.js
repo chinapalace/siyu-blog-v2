@@ -11,7 +11,7 @@ export class NavPanel extends React.Component {
     const links = initialLinks.paths.map((obj, idx) => {
       return (
         <li key={idx}>
-          <Link to={obj.path} onClick={() => this.props.closePanel() }>{obj.title}</Link>
+          <Link to={obj.path} onClick={() => this.props.closePanel()}>{obj.title}</Link>
         </li>
       );
     });
@@ -30,13 +30,10 @@ export class NavPanel extends React.Component {
           <ul className="links">
             {links}
           </ul>
-          <ul className="icons alt">
-            {socialLinks}
-          </ul>
         </nav>
         <span id="navPanelCloseBtn"
-        className="close"
-        onClick={() => this.props.closePanel() }><i className="fa fa-times" aria-hidden="true"></i></span>
+          className="close"
+          onClick={() => this.props.closePanel()}><i className="fa fa-times" aria-hidden="true"></i></span>
       </div>
     );
   }

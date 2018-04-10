@@ -9,7 +9,7 @@ export default function About() {
         <header className="major">
           <h1>About</h1>
         </header>
-        <div className="image main"><img src="images/pic01.jpg" alt="" /></div>
+
         <p> At Siyu Capital Insights, we digest the most pressing and pertinent trends in the equity, bond, and derivatives markets for you. Our weekly brief is geared at those who are trying to deepen their understanding of and broaden their interest in the world of investing and finance. Insights are intended to develop a more comprehensive investment view while underpinning sound personal finance learning as well.
   Our inspiration to write stems from daily engagement in the investment space across the asset classes delineated above. We take a granular, often esoteric look at specific challenges in markets, but also keep an overall macroeconomic sentiment at the core of our value proposition.
   No portion of any writing either within the weekly brief or on this website itself will ever take the form of actionable financial advice. We are not certified financial planners, chartered financial analysts, or chartered market technicians (although we’re working on it). Go Bruins.

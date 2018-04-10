@@ -11,8 +11,8 @@ module.exports = {
         title: 'About'
       },
       {
-        path: '/contact',
-        title: 'Contact'
+        path: '/newsletter',
+        title: 'Newsletter'
       },
     ],
     socialLinks: [

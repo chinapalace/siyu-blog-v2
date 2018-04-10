@@ -12,7 +12,7 @@ export default function Contact() {
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))' }}>
           <div >
             <p>
-              Get our weekly brief in your email. Full of pertinent news and topics. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+              Get our weekly brief in your email. Full of pertinent fincial news and topics. We'll send you one high quality email a week and never any spam.
             </p>
             <form id="email" method="post" action="https://siyucapital.com/api/recipients/" style={{ padding: '3rem', minWidth: '50px' }} >
               <input size="50" className="fit" type="email" placeholder="Email Address" />
@@ -25,6 +25,5 @@ export default function Contact() {
         </div>
       </section>
     </div>
-
   );
 }

@@ -1,7 +1,7 @@
 const { name } = require('./package.json');
 
 module.exports = {
-  pathPrefix: `/${name}`,
+  pathPrefix: `siyu-blog-v2`,
   siteMetadata: {
     author: 'Justin McLaren',
     title: `Siyu Capital`,

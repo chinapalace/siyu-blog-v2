@@ -25,7 +25,7 @@ export default class PreviewPost extends React.Component {
         </p>
         <ul className="actions">
           <li>
-            <Link to={this.props.post.fields.slug} className="button">Full Story</Link>
+            <Link to={`/${this.props.post.fields.slug}`} className="button">Full Story</Link>
           </li>
         </ul>
       </article>

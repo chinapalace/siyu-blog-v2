@@ -30,11 +30,20 @@ export default class Navbar extends React.Component {
         </li>
       );
     });
-
+    console.log("navbar", this.props);
     return (
+
       <nav id="nav">
         <ul className="links">
-          {navLinks}
+          <li className={'' === currentPath ? 'active' : ''}>
+            <Link to='/'>Home</Link>
+          </li>
+          <li className={'about' === currentPath ? 'active' : ''}>
+            <Link to='/about'>About</Link>
+          </li>
+          <li className={'newsletter' === currentPath ? 'active' : ''}>
+            <Link to='/newsletter'>Newsletter</Link>
+          </li>
         </ul>
         <ul className="icons">
           {socialLinks}
