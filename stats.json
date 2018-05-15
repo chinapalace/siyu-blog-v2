@@ -45,16 +45,16 @@
       "path---edition-9-a51ea7708d8c22e5aa3d.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-bcddf1d6750b5d4ebbf1.js",
-      "component---src-layouts-index-js-bcddf1d6750b5d4ebbf1.js.map"
+      "component---src-layouts-index-js-cce8320e55b61f1224d8.js",
+      "component---src-layouts-index-js-cce8320e55b61f1224d8.js.map"
     ],
     "component---src-pages-newsletter-js": [
       "component---src-pages-newsletter-js-683881e7366dd08458b6.js",
       "component---src-pages-newsletter-js-683881e7366dd08458b6.js.map"
     ],
     "path---index": [
-      "path---index-3462f0c30cf81f169164.js",
-      "path---index-3462f0c30cf81f169164.js.map"
+      "path---index-9e90f37257e195a1469d.js",
+      "path---index-9e90f37257e195a1469d.js.map"
     ],
     "path---edition-4": [
       "path---edition-4-c4b4008670a6db8f82cc.js",
@@ -97,14 +97,18 @@
       "path---edition-2-7f2aefdd4778f3799e1d.js.map"
     ],
     "app": [
-      "app-473a8210f4efc24b5043.js",
+      "app-a6073db77e7f6785c9ef.js",
       "build-js-styles.css",
-      "app-473a8210f4efc24b5043.js.map",
+      "app-a6073db77e7f6785c9ef.js.map",
       "build-js-styles.css.map"
     ],
     "path---edition-16": [
       "path---edition-16-829672a3b06ec5a80518.js",
       "path---edition-16-829672a3b06ec5a80518.js.map"
+    ],
+    "path---edition-19": [
+      "path---edition-19-03fa42588b258980d520.js",
+      "path---edition-19-03fa42588b258980d520.js.map"
     ],
     "path---edition-15": [
       "path---edition-15-70bea3f119942747bbfe.js",
