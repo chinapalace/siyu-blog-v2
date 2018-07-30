@@ -53,8 +53,8 @@
       "component---src-pages-newsletter-js-3b1b164ac8f43e76985d.js.map"
     ],
     "path---index": [
-      "path---index-9e90f37257e195a1469d.js",
-      "path---index-9e90f37257e195a1469d.js.map"
+      "path---index-2ebf08280cc6b9a44d34.js",
+      "path---index-2ebf08280cc6b9a44d34.js.map"
     ],
     "path---edition-4": [
       "path---edition-4-c4b4008670a6db8f82cc.js",
@@ -97,9 +97,9 @@
       "path---edition-2-7f2aefdd4778f3799e1d.js.map"
     ],
     "app": [
-      "app-a6073db77e7f6785c9ef.js",
+      "app-6a0e7643400330c95851.js",
       "build-js-styles.css",
-      "app-a6073db77e7f6785c9ef.js.map",
+      "app-6a0e7643400330c95851.js.map",
       "build-js-styles.css.map"
     ],
     "path---edition-16": [
@@ -109,6 +109,10 @@
     "path---edition-19": [
       "path---edition-19-03fa42588b258980d520.js",
       "path---edition-19-03fa42588b258980d520.js.map"
+    ],
+    "path---edition-20": [
+      "path---edition-20-94b58831d609ee049104.js",
+      "path---edition-20-94b58831d609ee049104.js.map"
     ],
     "path---edition-15": [
       "path---edition-15-70bea3f119942747bbfe.js",
